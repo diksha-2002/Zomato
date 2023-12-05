@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.nv{
+    background-image: url(1.jpeg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+ .nv nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.nv nav .right {
+    display: flex;
+
+}
+nav p{
+    margin-inline: 11px;
+    margin-top: 22px;
+
+}
+.nv .logo{
+    text-align: center;
+
+}
+.nv .logo img{
+    width:400px;
+    margin-top: 30px;    
+
+}
+ .nv .inp{
+    align-items: center;
+    display: block;
+    padding-left: 380px;
+}
+.nv .text{
+    text-align: center;
+    color: white;
+    margin-top: 22px;
+    font-size: 22px;
+}
+.nv .inp input{
+    display: flex;
+    width: 600px;
+    height: 33px;
+    font-size: 19px;
+    padding-left: 22px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 22px;
+    font-family: 'Mukta',sans-serif;
+    justify-content: flex-start;
+    
+
+}
+.card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.card .crd img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 55px;
+    
+
+}
+.coll .txt{
+    margin-left: 34px;
+    margin-top: 64px;
+    padding: 45px;
+    text-align: center;
+}
+.coll .rest{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.rest img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(250, 238, 240);
+    margin-top: 66px;
+
+}
+.app img{
+    width: 37%;
+
+}
+.app h1{
+    margin-top: 94px;
+    font-size: 44px;
+}
+.btn h1{
+    margin-left: 44px;
+    margin-top: 44px;
+    padding: 33px;
+}
+.btn button{
+    width: 900px;
+    height: 60px;
+    background-color: white;
+    border: 1p px solid gray;
+    border-radius: 5px;
+    margin-top: 22px;
+    margin-left: 133px;
+    font-size: 22px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(218, 213, 213);
+    margin-top: 44px;
+    padding: 44px;
+}
